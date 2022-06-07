@@ -1,0 +1,180 @@
+@media only screen and (max-width : 1024px) {
+
+    /* ============================= */
+    /* header_section */
+    /* ============================= */
+    #header_section {
+        height: 80vh;
+    }
+
+    .header_text {
+        width: 80%;
+        margin: auto;
+    }
+
+    .main_nav {
+        display: none !important;
+    }
+
+    .mobile_menu {
+        display: block;
+    }
+
+    /* ============================= */
+    /* testimonial_section */
+    /* ============================= */
+
+    .clients_say p {
+        width: 100%;
+        font-style: italic;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 21px;
+    }
+
+    section {
+        padding: 5rem 0;
+    }
+
+    .button {
+        padding: 13px 50px;
+        font-size: 16px;
+        margin-top: 45px;
+    }
+
+    .section_description {
+        width: 70%;
+        margin: auto;
+        line-height: 1.3rem;
+    }
+
+    /* ============================= */
+    /* header_section */
+    /* ============================= */
+    .header_text {
+        width: 100%;
+    }
+
+    /* ============================= */
+    /* footer_area */
+    /* ============================= */
+    .footer_area ul li {
+        margin: 0 20px;
+    }
+
+}
+
+@media only screen and (max-width : 515px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    section {
+        padding: 5rem 0;
+    }
+
+    .button {
+        padding: 10px 30px;
+        font-size: 16px;
+        margin-top: 45px;
+    }
+
+    .section_description {
+        width: 90%;
+        margin: auto;
+        line-height: 1.3rem;
+    }
+
+    /* ============================= */
+    /* footer_area */
+    /* ============================= */
+    .footer_area ul li {
+        margin: 0 10px;
+    }
+
+    .footer_area ul li a {
+        font-size: 18px;
+        text-decoration: none;
+        color: #ffffff;
+    }
+}
+
+
+@media only screen and (max-width : 400px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    h3 {
+        font-size: 19px;
+    }
+
+    section {
+        padding: 4.5rem 0;
+    }
+
+    .section_description {
+        width: 100%;
+    }
+
+    .button {
+        padding: 10px 25px;
+        font-size: 16px;
+        margin-top: 45px;
+    }
+
+    /* ============================= */
+    /* header_section */
+    /* ============================= */
+    #header_section {
+        height: 75vh;
+    }
+
+    /* ============================= */
+    /* porthfolio_section */
+    /* ============================= */
+    .prothfolio_menu button {
+        font-size: 16px;
+        margin: 0 5px;
+        border: none;
+        padding: 5px 15px;
+        border-radius: 5px;
+    }
+
+    /* ============================= */
+    /* footer_area */
+    /* ============================= */
+    .footer_area ul li {
+        margin: 0 8px;
+    }
+
+    .footer_area ul li a {
+        font-size: 16px;
+        text-decoration: none;
+        color: #ffffff;
+    }
+}
